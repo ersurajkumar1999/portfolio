@@ -1,49 +1,49 @@
 import React from "react";
 import api from "../assets/portfolio/api.jpg";
-import apod from "../assets/portfolio/apod.jpg";
-import iptracker from "../assets/portfolio/iptracker.jpg";
-import nftportal from "../assets/portfolio/nftportal.jpg";
-import webpostman from "../assets/portfolio/webpostman.jpg";
-import waveportal from "../assets/portfolio/waveportal.jpg";
+// import apod from "../assets/portfolio/apod.jpg";
+// import iptracker from "../assets/portfolio/iptracker.jpg";
+// import nftportal from "../assets/portfolio/nftportal.jpg";
+// import webpostman from "../assets/portfolio/webpostman.jpg";
+// import waveportal from "../assets/portfolio/waveportal.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: api,
-      link: 'https://crypto-info-api.cyclic.app/',
-      repo: 'https://github.com/rahulkarda/crypto-info-api'
+      link: 'https://crm-frontend-app.netlify.app/',
+      repo: 'https://github.com/ersurajkumar1999/crm-frontend'
     },
-    {
-      id: 2,
-      src: webpostman,
-      link: 'https://webpostman.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Web-Postman'
-    },
-    {
-      id: 3,
-      src: apod,
-      link: 'https://apodbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NASA-APOD'
-    },
-    {
-      id: 4,
-      src: waveportal,
-      link: 'https://waveatrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Wave-Portal'
-    },
-    {
-      id: 5,
-      src: nftportal,
-      link: 'https://nftportalbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NFT-Portal'
-    },
-    {
-      id: 6,
-      src: iptracker,
-      link: 'https://trackmyip.netlify.app/',
-      repo: 'https://github.com/rahulkarda/IP-Address-Tracker'
-    },
+    // {
+    //   id: 2,
+    //   src: webpostman,
+    //   link: 'https://webpostman.netlify.app/',
+    //   repo: 'https://github.com/rahulkarda/Web-Postman'
+    // },
+    // {
+    //   id: 3,
+    //   src: apod,
+    //   link: 'https://apodbyrahul.netlify.app/',
+    //   repo: 'https://github.com/rahulkarda/NASA-APOD'
+    // },
+    // {
+    //   id: 4,
+    //   src: waveportal,
+    //   link: 'https://waveatrahul.netlify.app/',
+    //   repo: 'https://github.com/rahulkarda/Wave-Portal'
+    // },
+    // {
+    //   id: 5,
+    //   src: nftportal,
+    //   link: 'https://nftportalbyrahul.netlify.app/',
+    //   repo: 'https://github.com/rahulkarda/NFT-Portal'
+    // },
+    // {
+    //   id: 6,
+    //   src: iptracker,
+    //   link: 'https://trackmyip.netlify.app/',
+    //   repo: 'https://github.com/rahulkarda/IP-Address-Tracker'
+    // },
   ];
 
   return (
