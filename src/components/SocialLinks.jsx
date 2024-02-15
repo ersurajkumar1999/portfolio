@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com/in/rahulkarda2002",
+      href: "https://www.linkedin.com/in/er-suraj-kumar-69882a292",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/rahulkarda",
+      href: "https://github.com/ersurajkumar1999",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Email <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:rahulkarda2002@gmail.com",
+      href: "mailto:er.surajkumar1999@gmail.com",
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ const SocialLinks = () => {
         </>
       ),
       href: resume,
-      download: true,
+      download: false,
     },
     {
       id: 5,
@@ -50,7 +50,7 @@ const SocialLinks = () => {
           Twitter <FaTwitter size={30} />
         </>
       ),
-      href: "https://twitter.com/rahulkarda2002",
+      href: "https://twitter.com/surajkumar1999_",
       style: "rounded-br-md",
     },
   ];
