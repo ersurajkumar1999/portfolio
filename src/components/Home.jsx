@@ -10,7 +10,7 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 home"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-      <div className="small-screen hidden">
+        <div className="small-screen hidden">
           <img
             src={HeroImage}
             alt="profile"
@@ -22,9 +22,9 @@ const Home = () => {
             I'm a Full Stack Web Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 2 years of experience building websites and desgining software.
+            I have 5 years of experience building websites and desgining software.
             I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+            PHP, Codeigniter, Laravel, MUI, Bootstrap, React JS, Next JS, Node JS, MongoDB,express JS, and GraphQL.
           </p>
 
           <div className="portfolio-btn">
@@ -48,7 +48,7 @@ const Home = () => {
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>
-        
+
       </div>
     </div>
   );

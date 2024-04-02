@@ -3,6 +3,9 @@ import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
+import php from "../assets/php.png";
+import codeigniter from "../assets/codeigniter.png";
+import laravel from "../assets/laravel.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
@@ -34,54 +37,72 @@ const Experience = () => {
     },
     {
       id: 4,
+      src: php,
+      title: "PHP",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 5,
+      src: codeigniter,
+      title: "Codeigniter",
+      style: "shadow-purple-500",
+    },
+    {
+      id: 6,
+      src: laravel,
+      title: "Laravel",
+      style: "shadow-green-400",
+    },
+    {
+      id: 7,
       src: reactImage,
       title: "React",
       style: "shadow-blue-600",
     },
     {
-      id: 5,
+      id: 8,
       src: node,
       title: "NodeJs",
       style: "shadow-green-400",
     },
     {
-      id: 6,
+      id: 9,
       src: nextjs,
       title: "Next JS",
       style: "shadow-white",
     },
     {
-      id: 7,
+      id: 10,
       src: graphql,
       title: "GraphQL",
       style: "shadow-pink-400",
     },
     {
-      id: 8,
+      id: 11,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 9,
+      id: 12,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 10,
+      id: 13,
       src: express,
       title: "Express",
       style: "shadow-white",
     },
     {
-      id: 11,
+      id: 14,
       src: mongodb,
       title: "MongoDB",
       style: "shadow-green-500",
     },
     {
-      id: 12,
+      id: 15,
       src: redux,
       title: "Redux",
       style: "shadow-purple-500",
